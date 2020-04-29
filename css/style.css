@@ -1,0 +1,275 @@
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: Montserrate;
+}
+
+header{
+    background: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 41px 0 260px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.header_logo:hover{
+    color: #fff;
+}
+
+.nav-menu{
+    display: flex;
+    width: 100%;
+    max-width: 540px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu__link{
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav-menu__link:hover{
+    color: #fff;
+}
+
+.header__container{
+    margin-bottom: 260px;
+}
+
+.header-title{
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 33px;
+}
+
+.header-subtitle{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.header-btn{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 17px 33px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.header-btn:hover{
+    color: #fff;
+}
+
+.services__container{
+    padding: 100px 0;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #555;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.title::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #555;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.subtitle{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.service__title{
+    margin: 30px 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #555;
+    font-weight: 700;
+}
+
+.services__icon{
+    font-size: 40px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c0301c;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.services__icon:hover{
+    background: #c0301c;
+    color: #fff;
+}
+
+.services__subtitle{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+}
+
+.about{
+    background: #f8f8f8;
+}
+
+.about__container{
+    padding: 100px 0;
+}
+
+.about__text{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+
+.about-slider__img{
+    position: relative;
+}
+
+.about-slider__icons{
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.about-slider__icons a{
+    font-size: 20px;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-slider__icons a:hover{
+    background: #c0301c;
+}
+
+.about-slider__img:hover .about-slider__icons{
+    display: block;
+}
+
+.about-slider__title{
+    margin: 20px 0 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    font-weight: 700;
+}
+
+.about-slider__subtitle{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+}
+
+.slick-prev,
+.slick-next{
+    width: 35px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    background: #8c8c8c;
+    position: absolute;
+    top: 106px;
+    z-index: 99;
+}
+
+.slick-prev:hover,
+.slick-next:hover{
+    background: #c0301c;
+}
+
+.slick-prev{
+    left: 11px;
+}
+
+.slick-next{
+    right: 11px;
+}
+
+.about-slider__item img{
+    margin: 0 auto;
+}
+
+.about-slider__overlay{
+    position: absolute;
+    width: 263px;
+    height: 250px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(85, 85, 85, 0.502);
+    display: none;
+}
+
+.about-slider__img:hover .about-slider__overlay{
+    display: block;
+}
