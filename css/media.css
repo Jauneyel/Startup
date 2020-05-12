@@ -1,0 +1,130 @@
+@media (max-width: 1199.98px){
+    .slick-prev{
+        left: 29px;
+    }
+    .slick-next{
+        right: 29px;
+    }
+    .blog img{
+        height: 100%;
+    }
+}
+@media (max-width: 991.98px){
+    .nav-menu{
+        position: fixed;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #c0301c;
+        z-index: 100;
+        flex-direction: column;
+        justify-content: center;
+        display: none;
+    }
+    .nav-menu__link{
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .nav-menu__item{
+        margin: 5px;
+    }
+    .header .nav{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 20px 30px;
+        background: #c0301c;
+        z-index: 101;
+    }
+    .nav__burger{
+        display: block;
+        position: relative;
+        z-index: 101;
+    }
+    .header__logo{
+        position: relative;
+        z-index: 101;
+    }
+    .about__text{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .slick-prev{
+        left: 49px;
+    }
+    .slick-next{
+        right: 49px;
+    }
+    .blog .col-xl-7{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 767.98px){
+    .services .col-xl-4{
+        margin-bottom: 30px;
+    }
+    .services__container,
+    .works__container{
+        padding: 50px 0 20px;
+    }
+    .about__container,
+    .talk__container,
+    .blog__container,
+    .sponsors__container,
+    .footer{
+        padding: 50px 0;    
+    }
+    .slick-prev{
+        left: 4px;
+    }
+    .slick-next{
+        right: 4px;
+    }
+}
+@media (max-width: 575.98px){
+    .header-title{
+        font-size: 25px;
+    }
+    .header-subtitle{
+        font-size: 15px;
+    }
+    .header-btn{
+        font-size: 14px;
+    }
+    .header__container{
+        margin-bottom: 170px;
+    }
+    .header{
+        padding-bottom: 180px;
+    }
+    .slick-prev{
+        left: 29px;
+    }
+    .slick-next{
+        right: 29px;
+    }
+    .talk__text{
+        font-size: 20px;
+    }
+    .talk__btn{
+        font-size: 14px;
+    }
+    .article-header__date{
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .article-header__date span{
+        font-size: 18px;
+    }
+    .article-header__title{
+        font-size: 12px;
+    }
+    .article-header__subtitle{
+        font-size: 12px;
+    }
+}
