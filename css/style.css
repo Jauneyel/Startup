@@ -261,6 +261,21 @@ body{
     margin: 0 auto;
 }
 
+.about-slider__overlay{
+    position: absolute;
+    width: 263px;
+    height: 250px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(85, 85, 85, 0.502);
+    display: none;
+}
+
+.about-slider__img:hover .about-slider__overlay{
+    display: block;
+}
+
 .works__container{
     padding: 100px 0 70px;
 }
